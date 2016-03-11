@@ -1,0 +1,36 @@
+{
+    "name"           : "stater-core",
+    "version"        : "1.0.0",
+    "description"    : "NodeJS Service Framework",
+    "main"           : "dist/stater.js",
+    "scripts"        : {
+        "babel": "babel src --out-dir dist",
+        "test" : "node test"
+    },
+    "keywords"       : [
+        "node",
+        "javascript",
+        "framework"
+    ],
+    "author"         : "Nanang Mahdaen El Agung <nanang@mahdaen.name>",
+    "license"        : "MIT",
+    "repository"     : {
+        "type": "git",
+        "url" : "git+ssh://git@github.com/cobolab/stater.git"
+    },
+    "bugs"           : {
+        "url": "https://github.com/cobolab/stater/issues"
+    },
+    "homepage"       : "https://github.com/cobolab/stater#readme",
+    "dependencies"   : {
+        "cb-clihp": "^1.2.0",
+        "cb-jsfix": "^1.2.1",
+        "cb-loggy": "^1.1.0",
+        "fs-extra": "^0.26.5",
+        "glob"    : "^7.0.3"
+    },
+    "devDependencies": {
+        "babel-preset-es2015" : "^6.3.13",
+        "babel-preset-stage-0": "^6.3.13"
+    }
+}
